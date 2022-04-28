@@ -13,7 +13,7 @@ const Hero = (props) => (
           Front-end developer
         </SectionTitle>
         <SectionText>
-        I am a front end developer thats actively learning and using new technologies that improve experience for developers and users. I have no bounds on what I should learn and this is evitend by my espirasion to eventually become a full-stack dev. 
+        I am a front end developer thats actively learning and using new technologies that improve experience for developers and users. I have no bounds on what I should learn and this is evitend by my espirasion to eventually become a full-stack development.
         </SectionText>
         {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>
