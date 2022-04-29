@@ -20,15 +20,15 @@ const Projects = () => (
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
               <TitleContent>Stack</TitleContent>
-              <TagList>
+              <div style={{justifyContent: "space-around", padding: "2rem",display: "grid",gridColumn: "3"}}>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
                 })}
-              </TagList>
+              </div>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <ExternalLinks target="_blank" href={p.visit}>Code</ExternalLinks>
+              <ExternalLinks target="_blank" href={p.source}>Source</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );

@@ -61,6 +61,7 @@ const Technologies = () =>  (
             <li>Ionic</li>
            <li>Tailwind.css</li>
            <li>CSS</li>
+           <li>SCSS</li>
           </ListParagraph>
         </ListContainer>
       </ListItem>
