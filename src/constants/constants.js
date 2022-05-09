@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Spotify clone',
-    description:"A simple clone of spotify build with Next.js and tailwindcss and uses spotify API to provide many functionalities including playing the songs from your playlist. It also uses next auth to log you into your spotify account. NOTE: YOU MUST HAVE A SPOTIFY ACCOUNT WITH PLAYLIST/PLAYLISTS TO SEE RESULTS",
+    description:"A simple clone of spotify build with Next.js and tailwindcss and uses spotify API to provide many functionalities including playing the songs from your playlist. It also uses NextAuth to log you into your spotify account. NOTE: YOU MUST HAVE A SPOTIFY ACCOUNT WITH PLAYLIST/PLAYLISTS TO SEE RESULTS",
     image: '/images/new/spotify.png',
     tags: ['Next.js', 'tailwindcss', 'Recoil' , 'Spotify API' , 'NextAuth'],
     source: 'https://github.com/Antonio94709/spotify-3/tree/main',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Facebook clone',
-    description: "A simple clone of facebook. This is simply a responsive desing of the social media website.",
+    description: "A simple clone of facebook. This is simply a responsive design of the social media website.",
       image: '/images/new/facebook.png',
       tags: ['Next.js', 'tailwindcss'],
     source: 'https://github.com/Antonio94709/facebook-nextjs/tree/main',
@@ -35,15 +35,15 @@ export const projects = [
     visit: 'https://hulu-amber-three.vercel.app/',
     id: 3,
   },
-  {
-    title: 'Chat App',
-    description: "A simple non-responsive chat app that is built with next.js and chat engine.NOTE: PLEASE LOGIN WITH [username: jack, password:5667898]",
-    image: '/images/new/chat app.png',
-    tags: ['Next.js', 'tailwindcss', 'chat engine'],
-    source: 'https://github.com/Antonio94709/Chat-App-NextJs/tree/master',
-    visit: 'https://chat-app-next-js-three.vercel.app/',
-    id: 3,
-  }
+  // {
+  //   title: 'Chat App',
+  //   description: "A simple non-responsive chat app that is built with next.js and chat engine.NOTE: PLEASE LOGIN WITH [username: jack, password:5667898]",
+  //   image: '/images/new/chat app.png',
+  //   tags: ['Next.js', 'tailwindcss', 'chat engine'],
+  //   source: 'https://github.com/Antonio94709/Chat-App-NextJs/tree/master',
+  //   visit: 'https://chat-app-next-js-three.vercel.app/',
+  //   id: 3,
+  // }
 ];
 
 export const TimeLineData = [
